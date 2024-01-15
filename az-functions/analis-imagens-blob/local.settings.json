@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=imagerecognitionpy;AccountKey=ymcOHHeGgTeN/85RJFhsSoUdS7ZJ+3aFGKXff63TXWFZg7hl8oYwS4rMZEbDn+7RxToQQcdkH2zQ+AStNXKcUg==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "StorageAccountConnection": "DefaultEndpointsProtocol=https;AccountName=imagerecognitionpy;AccountKey=ymcOHHeGgTeN/85RJFhsSoUdS7ZJ+3aFGKXff63TXWFZg7hl8oYwS4rMZEbDn+7RxToQQcdkH2zQ+AStNXKcUg==;EndpointSuffix=core.windows.net"
+  }
+}

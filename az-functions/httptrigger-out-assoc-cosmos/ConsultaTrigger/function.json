@@ -1,0 +1,28 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "tarefaDocument",
+      "direction": "in",
+      "type": "cosmosDB",
+      "connectionStringSetting": "azfuncsdatabase_DOCUMENTDB",
+      "connection": "azfuncsdatabase_DOCUMENTDB",
+      "databaseName": "tarefaDatabase",
+      "collectionName": "tarefaCollection",
+      "createIfNotExists": true
+    }
+  ]
+}
